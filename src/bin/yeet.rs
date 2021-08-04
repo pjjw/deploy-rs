@@ -16,7 +16,7 @@ use std::process::Stdio;
 use thiserror::Error;
 use tokio::process::Command;
 
-/// Simple Rust rewrite of a simple Nix Flake deployment tool
+/// A simple multi-profile Nix-flake deploy tool.
 #[derive(Clap, Debug, Clone)]
 #[clap(version = "1.0", author = "Serokell <https://serokell.io/>")]
 struct Opts {
